@@ -1,9 +1,9 @@
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css");
-
 html {
-   background: url("../img/DR.png") no-repeat center center fixed;
+   background: url("../img/No3.jpg") no-repeat center center fixed;
    background-size: cover;
 }
+
 nav {
   margin: 0 auto;
   padding-left: 5px;
@@ -15,7 +15,6 @@ nav a {
   letter-spacing: .7rem;
   font-weight: .5rem;
 }
-
 
 nav {
   width: 500px;
@@ -60,4 +59,40 @@ nav ul > li:hover ul {
   moz-box-shadow: 5px 5px 0px rgba( 20, 20, 20, .1);
   webkit-box-shadow: 5px 5px 0px rgba( 20, 20, 20, .1);
   box-shadow: 5px 10px 0px rgba( 20, 20, 20, .1);
+}
+h1 {
+   margin-top: 50px;
+   color: #212121;
+   font-weight: thin;
+   font-family: 'arial', sans-serif;
+   display: inline-block;
+   float: left;
+   font-size: 13.75rem;
+   text-align: center;
+   padding-left: 660px;
+   font-weight: 50;
+}
+h2 {
+   color: #212121;
+   font-weight: thin;
+   font-family: 'Montserrat', sans-serif;
+   float: left;
+   width: 100px;
+   font-size: 2.75rem;
+   text-align: center;
+   padding-left: 841px;
+   margin-top: -22px;
+}
+p {
+   margin-top: 10px;
+   color: #212121;
+   font-weight: thin;
+   font-family: 'cardo', sans-serif;
+   display: inline-block;
+   float: left;
+   font-size: 1.2rem;
+   text-align: left;
+   padding-left: 840px;
+   line-height: 1.7rem;
+   width: 400px;
 }
