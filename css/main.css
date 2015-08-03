@@ -1,56 +1,64 @@
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css");
-
+html {background: url("../img/DR.png") no-repeat center center fixed;
+   background-size: cover;
+}
 nav {
   margin: 0 auto;
-  padding-left: 300px;
+  padding-left: 30px;
 }
 nav a {
-  color: #fff;
+  color: #212121;
   text-align: center;
   text-decoration: none;
+  letter-spacing: .7rem;
+  font-weight: .5rem;
 }
-
-pre {
-  font-size: .96em;
-}
-
 
 h1, h2 {
   text-align: center;
 }
 
 nav {
-  width: 300px;
-  height: 34px;
+  width: 500px;
+  height: 40px;
   padding-bottom: 0px;
   position: static;
 }
+
 nav a {
   display: block;
-  border: 2px solid #21bde1;
-  width: 146px;
+  border-bottom: 5px ;
+  width: 500px;
   line-height: 34px;
+  font-size: 1rem;
+  font-family: 'cardo', sans-serif;
+  font-style: thin;
 }
 nav a:hover {
-  background-color: #21bde1;
+  background-color: #d3d3d3;
 }
 nav ul {
-  padding: 0;
+  padding: 15px;
   margin: 0;
   list-style-type: none;
 }
 nav ul > li {
   float: left;
-  width: 150px;
+  width: 500px;
   position: relative;
-  background-color: #f0ab3b;
+  background-color: #FDFDFD;
+  margin-top: 5px;
 }
 nav ul > li ul {
   visibility: hidden;
   position: absolute;
-  top: 38px;
+  top: 20px;
   left: 0;
 }
 nav ul > li:hover ul {
   visibility: visible;
+  margin-bottom: 40px;
+  moz-box-shadow: 5px 5px 0px rgba( 20, 20, 20, .1);
+  webkit-box-shadow: 5px 5px 0px rgba( 20, 20, 20, .1);
+  box-shadow: 5px 10px 0px rgba( 20, 20, 20, .1);
 }
