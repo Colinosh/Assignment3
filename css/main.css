@@ -1,9 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css");
 
-html {
-   background: url("../img/DR.png") no-repeat center center fixed;
-   background-size: cover;
-}
 nav {
   margin: 0 auto;
   padding-left: 5px;
@@ -59,5 +55,5 @@ nav ul > li:hover ul {
   margin-bottom: 40px;
   moz-box-shadow: 5px 5px 0px rgba( 20, 20, 20, .1);
   webkit-box-shadow: 5px 5px 0px rgba( 20, 20, 20, .1);
-  box-shadow: 5px 10px 0px rgba( 20, 20, 20, .1);
+  box-shadow: 5px 10px 5px rgba( 20, 20, 20, .1);
 }
